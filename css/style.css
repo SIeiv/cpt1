@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  border-style: none;
+}
+
+.wrapper {
+  width: 1300px;
+}
+
+.header-present {
+  width: 1600px;
+  height: 539px;
+}
+
+.header-present__header {
+  height: 84px;
+  display: flex;
+  align-items: center;
+}
+
+.header-present__header > * {
+  margin-right: 60px;
+}
+
+.header-present__header-main {
+  display: flex;
+}
+
+.header-present__header-main-logo {
+  width: 29px;
+  height: 29px;
+  margin-right: 7px;
+}
+
+.header-present__header-main-name {
+  font-weight: 700;
+  font-size: 12px;
+  color: #3145FF;
+}
+
+.header-present__header-main-descript {
+  font-weight: 300;
+  font-size: 12px;
+  color: #2A2D46;
+}
+
+.header-present__header-navigate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 339px;
+  height: 15px;
+}
+
+.header-present__header-navigate-item {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2A2D46;
+  display: flex;
+  align-items: center;
+
+  transition: color;
+  transition-duration: 0.2s;
+}
+
+.header-present__header-navigate-item:hover {
+  color: #2b38b6;
+}
+
+.header-present__header-navigate-item_active {
+  color: #3145FF;
+}
+
+.header-present__header-telephone {
+  font-weight: 700;
+  font-size: 13px;
+  color: #2A2D46;
+}
+
+.header-present__header-order-call {
+  width: 123px;
+  height: 25px;
+  background-color: transparent;
+  color: #EB2D66;
+  border: solid #EB2D66 1px;
+  font-weight: 700;
+  font-size: 11px;
+
+  transition: background-color, color;
+  transition-duration: 0.2s;
+}
+
+.header-present__header-order-call:hover {
+  color: #FFFFFF;
+  background-color: #EB2D66;
+}
+
+.header-present__header-cart {
+  width: 125px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-present__header-cart-other {
+  width: 85px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-present__header-cart-other > span {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.header-present__header-cart-other > img {
+  width: 11px;
+  height: 6px;
+  margin-bottom: 3px;
+}
+
+
+.header-present__present {
+  display: flex;
+  margin-top: 20px;
+}
+
+.header-present__present-left {
+  width: 544px;
+  height: 279px;
+  margin-top: 50px;
+  margin-right: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-present__present-left-title {
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.header-present__present-left-text {
+  font-size: 18px;
+  width: 380px;
+  height: 78px;
+}
+
+.header-present__present-left-btn {
+  width: 239px;
+  height: 63px;
+
+  background-color: #EB2D66;
+  border-style: none;
+  color: #FFFFFF;
+  box-shadow: 0 7px 35px #EB2D665C;
+
+  font-weight: 700;
+  font-size: 16px;
+
+  transition: all;
+  transition-duration: 0.2s;
+}
+
+.header-present__present-left-btn:hover {
+  box-shadow: 0 7px 35px rgba(235, 45, 102, 0.5);
+}
+
+.header-present__present-right {
+  position: relative;
+}
+
+.header-present__present-right > * {
+  position: absolute;
+}
+
+.header-present__present-right-cross {
+  left: -200px;
+  top: 100px
+}
+
+.header-present__present-right-bgcross > * {
+  position: absolute;
+}
+
+.header-present__present-right-bgcross-content-text {
+  display: grid;
+  grid-template-rows: 13px auto;
+  grid-template-columns: 13px auto;
+  color: #FFFFFF;
+
+  position: absolute;
+  top: 40px;
+  left: 325px;
+}
+
+.header-present__present-right-bgcross-content-text-s {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.header-present__present-right-bgcross-content-text-t {
+  margin: 5px;
+  width: 240px;
+  height: 70px;
+}
+
+.header-present__present-right-bgcross-content-text-t > h3 {
+  font-weight: 700;
+  font-size: 17px;
+}
+.header-present__present-right-bgcross-content-text-t > div {
+  font-size: 12px;
+}
+.header-present__present-right-bgcross-content-text-t > span {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.header-present__present-right-bgcross-content-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 153px;
+  height: 8px;
+
+  position: absolute;
+  top: 335px;
+  left: 420px;
+}
+.header-present__present-right-bgcross-content-btns-btn {
+  width: 39px;
+  height: 8px;
+  background-color: #FFFFFF59;
+
+  transition: background-color;
+  transition-duration: 0.2s;
+}
+.header-present__present-right-bgcross-content-btns-btn:hover {
+  background-color: rgba(255, 255, 255, 0.78);
+}
+.header-present__present-right-bgcross-content-btns-btn_active {
+  background-color: #FFFFFF;
+}
