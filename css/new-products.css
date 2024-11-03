@@ -1,0 +1,114 @@
+.new-products {
+    width: 100%;
+}
+
+.new-products__categories {
+    display: flex;
+    align-items: center;
+}
+
+.new-products__categories * {
+    color: #2A2D46;
+}
+
+.new-products__categories-title {
+    font-weight: 900;
+    font-size: 30px;
+    height: 30px;
+    margin-right: 100px;
+}
+
+.new-products__categories-nav {
+    width: 519px;
+    height: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-products__categories-nav-item {
+    height: 18px;
+    font-size: 15px;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+
+    transition: color;
+    transition-duration: 0.2s;
+}
+.new-products__categories-nav-item:hover {
+    color: #3145FF;
+}
+
+.new-products__categories-products-main {
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.new-products__categories-products-main-content {
+    display: flex;
+}
+
+.new-products__categories-products-main-content-item {
+    width: 269px;
+    height: 417px;
+    margin-inline: 15px;
+    padding-inline: 15px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 15px 30px #3145FF12;
+}
+
+.new-products__categories-products-main-content-item > img {
+    margin-block: 5px;
+}
+
+.new-products__categories-products-main-content-item-title {
+    font-weight: 900;
+    font-size: 16px;
+}
+.new-products__categories-products-main-content-item-desc {
+    font-size: 12px;
+    width: 232px;
+    text-align: center;
+}
+
+.new-products__categories-products-main-content-item-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.new-products__categories-products-main-content-item-footer > * {
+    display: flex;
+}
+
+.new-products__categories-products-main-content-item-footer-old-price {
+    text-decoration: line-through;
+}
+
+.new-products__categories-products-main-content-item-footer-btn {
+    background-color: transparent;
+}
+
+.new-products__categories-products-main-content-item-footer-bottom {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.new-products__categories-products-main-content-item-footer-price {
+    font-weight: 700;
+    font-size: 18px;
+    color: #3145FF;
+}
