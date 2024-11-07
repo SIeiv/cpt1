@@ -23,6 +23,10 @@ button {
     width: 1300px;
 }
 
+.wrapper > * {
+    margin-top: 80px;
+}
+
 a {
     text-decoration: none;
     color: black;
