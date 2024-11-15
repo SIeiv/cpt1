@@ -1,0 +1,31 @@
+.stats {
+    color: #2A2D46;
+}
+
+.stats__title {
+    font-weight: 900;
+    font-size: 25px;
+
+    margin-bottom: 50px;
+}
+
+.stats__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats__content-item {
+    display: flex;
+    align-items: center;
+}
+
+.stats__content-item-number {
+    font-weight: 900;
+    font-size: 50px;
+
+    margin-right: 15px;
+}
+
+.stats__content-item-text {
+    font-size: 14px;
+}

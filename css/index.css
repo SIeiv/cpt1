@@ -11,7 +11,8 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
@@ -21,6 +22,7 @@ button {
 
 .wrapper {
     width: 1300px;
+    margin-bottom: 80px;
 }
 
 .wrapper > * {
@@ -31,4 +33,5 @@ a {
     text-decoration: none;
     color: black;
 }
+
 

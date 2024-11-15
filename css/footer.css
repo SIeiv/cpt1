@@ -1,0 +1,83 @@
+.footer {
+    width: 100%;
+    height: 276px;
+    background-color: #343A62;
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__wrapper {
+    width: 1300px;
+    height: 31px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__wrapper-main {
+    display: flex;
+    align-items: center;
+}
+
+.footer__wrapper-main-company {
+    display: flex;
+
+    margin-right: 40px;
+}
+
+.footer__wrapper-main-company > img {
+    margin-right: 10px;
+}
+
+.footer__wrapper-main-company-i-name {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.footer__wrapper-main-company-i-desc {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.footer__wrapper-main-nav {
+    width: 353px;
+    height: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__wrapper-main-nav-item {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__wrapper-telephone {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.footer__wrapper-order-call {
+    width: 123px;
+    height: 25px;
+    background-color: transparent;
+    color: #EB2D66;
+    border: solid #EB2D66 1px;
+    font-weight: 700;
+    font-size: 11px;
+
+    transition: background-color, color;
+    transition-duration: 0.2s;
+}
+
+.footer__wrapper-order-call:hover {
+    color: #FFFFFF;
+    background-color: #EB2D66;
+}
