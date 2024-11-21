@@ -61,8 +61,16 @@ button {
     margin-top: 80px;
 }
 
+#frame {
+    overflow: hidden;
+    width: 1196px;
+}
+
 .new-products__categories-products-main-content {
     display: flex;
+    width: 100%;
+
+    transition: 1s ease-in-out;
 }
 
 .new-products__categories-products-main-content-item {
@@ -139,7 +147,7 @@ button {
 .new-products__categories-products-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 13px;
-    width: 47px;
+    width: 80px;
     background-color: #9094B8;
     margin-top: -4px;
     box-shadow: 0 2px 10px #0000003B;

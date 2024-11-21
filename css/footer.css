@@ -57,6 +57,13 @@
     font-size: 12px;
     display: flex;
     align-items: center;
+
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.footer__wrapper-main-nav-item:hover {
+    text-decoration: underline;
 }
 
 .footer__wrapper-telephone {
