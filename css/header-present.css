@@ -88,8 +88,36 @@
   width: 125px;
   height: 25px;
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-present__header-cart-popup-window {
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+  top: 35px;
+
+  display: none;
+  opacity: 0;
+
+  transition: opacity;
+  transition-duration: 0.2s;
+
+  box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.header-present__header-cart-popup-window button {
+  width: 130px;
+  height: 30px;
+
+  transition: background-color;
+  transition-duration: 0.2s;
+}
+
+.header-present__header-cart-popup-window button:hover {
+  background-color: rgba(203, 203, 203, 0.64);
 }
 
 .header-present__header-cart-other {

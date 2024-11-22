@@ -63,7 +63,8 @@ button {
 
 #frame {
     overflow: hidden;
-    width: 1196px;
+    width: 1168px;
+    height: 460px;
 }
 
 .new-products__categories-products-main-content {
@@ -85,7 +86,7 @@ button {
     justify-content: center;
     align-items: center;
 
-    box-shadow: 0 15px 30px #3145FF12;
+    box-shadow: 0 15px 20px #3145FF12;
 }
 
 .new-products__categories-products-main-content-item > img {
@@ -138,7 +139,7 @@ button {
     width: 470px;
     height: 13px;
 
-    margin-block: 40px;
+    margin-bottom: 40px;
 
     -webkit-appearance: none;
     background-color: transparent;
